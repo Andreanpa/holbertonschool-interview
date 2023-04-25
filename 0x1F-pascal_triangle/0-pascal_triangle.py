@@ -1,4 +1,13 @@
 def pascal_triangle(n):
+    """
+    Creates a list of lists of integers representing Pascal's triangle
+    parameters:
+        n [int]:
+            the number of rows of Pascal's triangle to recreate
+    return:
+        [list of lists of ints]:
+            representation of Pascal's triangle
+    """
     if n <= 0: 
         return []
     
